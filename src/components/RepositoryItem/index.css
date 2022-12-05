@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.details-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+
+  padding: 0px;
+}
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.avatar-logo {
+  width: 100px;
+  height: 100px;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+}
+.repo-list-items {
+  background-color: #f8f8ff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.list-headings {
+  font-family: 'roboto';
+  font-size: 26px;
+  margin: 5px;
+}
+
+@media screen and (min-width:768px) {
+  .repo-list-items {
+    background-color: #f8f8ff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 30px;
+  }
+}

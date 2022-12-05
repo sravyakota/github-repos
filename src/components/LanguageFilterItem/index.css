@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.styling-button {
+  border-radius: 20px;
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  padding: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'roboto';
+  outline: none;
+}
+.button {
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'roboto';
+  border: 0;
+  outline: none;
+  padding: 10px;
+}

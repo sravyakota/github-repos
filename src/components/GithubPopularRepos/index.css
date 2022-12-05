@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.github-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 30px;
+}
+.repos-list-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.repos-list-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.main-heading {
+  font-family: 'Lobster';
+  font-size: 30px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 60%;
+}
+.failure-msg {
+  font-size: 30px;
+  font-family: 'roboto';
+}
